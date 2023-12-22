@@ -1,28 +1,25 @@
+import exception.TooLowVertexIndicesException;
 import model.Model;
 import model.TriangulatedModel;
 import objUtils.ObjReader;
 import objUtils.ObjWriter;
-import triangulation.Triangulation;
-import triangulation.TriangulationByPolygons;
 
 import java.io.IOException;
-import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        Model model = ObjReader.read(
-                Files
-                        .readAllLines(Path.of("src/input/13462_Samoyed_v1_L3.obj"))
-                        .stream()
-                        .reduce(
-                                (a, b) -> a + "\n" + b
-                        )
-                        .get()
-        );
+        Model model = ObjReader.read(Path.of("src/input/Deer.obj"));
 
-        TriangulatedModel result = Triangulation.triangulate(model, new TriangulationByPolygons());
+        TriangulatedModel result = null;
+        try {
+            result = TriangulatedModel.fromModel(model);
+        } catch (TooLowVertexIndicesException e) {
+            throw new RuntimeException(e);
+        }
 
-        ObjWriter.write(result, Path.of("out/result.obj"));
+        System.out.println(result.equals(model));
+
+        ObjWriter.write(result, Path.of("out/result2.obj"));
     }
 }

@@ -1,10 +1,11 @@
 package triangulation;
 
-import model.Model;
+import exception.TooLowVertexIndicesException;
 import model.Polygon;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public interface TriangulationAlgorithm {
-    ArrayList<Polygon> toTriangles(Model model);
+    ArrayList<Polygon> toTriangles(List<Polygon> polygonList) throws TooLowVertexIndicesException;
 }

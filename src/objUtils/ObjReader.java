@@ -5,6 +5,9 @@ import math.Vector3f;
 import model.Model;
 import model.Polygon;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -14,6 +17,18 @@ public class ObjReader {
     private static final String OBJ_TEXTURE_TOKEN = "vt";
     private static final String OBJ_NORMAL_TOKEN = "vn";
     private static final String OBJ_FACE_TOKEN = "f";
+
+    public static Model read(Path path) throws IOException {
+        return read(
+                Files
+                        .readAllLines(path)
+                        .stream()
+                        .reduce(
+                                (a, b) -> a + "\n" + b
+                        )
+                        .get()
+        );
+    }
 
     public static Model read(String fileContent) {
         Model result = new Model();

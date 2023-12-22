@@ -2,27 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f92e4e69-9085-48a7-a8c2-5b004ef28cde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CG_Task_3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/input/13462_Samoyed_v1_L3.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/input/Deer.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/Vector2f.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/math/Vector3f.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Model.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Polygon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/TriangulatedModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objUtils/ObjReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objUtils/ObjReaderException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objUtils/ObjWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/triangulation/SimpleTriangulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/triangulation/Triangulation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/triangulation/TriangulationAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/triangulation/TriangulationByPolygons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestJUnit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input/test/test1.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input/test/test2.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/input/test/test3.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CG_Task_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CG_Task_3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Polygon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Polygon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/TriangulatedModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/TriangulatedModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objUtils/ObjReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objUtils/ObjReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objUtils/ObjWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objUtils/ObjWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triangulation/SimpleTriangulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/triangulation/SimpleTriangulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triangulation/Triangulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triangulation/TriangulationAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/triangulation/TriangulationAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triangulation/TriangulationByPolygons.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,18 +46,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Asus\IdeaProjects\CG\CG_Task_3\src\input" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestJUnit">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="CG_Task_3" />
@@ -68,8 +73,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestJUnit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CG_Task_3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestJUnit" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.TestJUnit" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestJUnit" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -95,16 +115,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
